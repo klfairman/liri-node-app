@@ -77,7 +77,7 @@ function concert () {
         }
     };
 
-    var queryUrl = "https://rest.bandsintown.com/artists/" + bandName + "/events?app_id=codingbootcamp";
+    var queryUrl = "https://rest.bandsintown.com/artists/" + bandName + "/events?app_id=2f9fab4d9c6938051b04beb1d9fd5f80";
 
     request(queryUrl, function (error, response, body) {
         if (error) {
