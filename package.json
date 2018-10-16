@@ -1,0 +1,30 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klfairman/-liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klfairman/-liri-node-app/issues"
+  },
+  "homepage": "https://github.com/klfairman/-liri-node-app#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "fs": "0.0.1-security",
+    "gitignore": "^0.6.0",
+    "inquirer": "^6.2.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0",
+    "request": "^2.88.0"
+  }
+}
